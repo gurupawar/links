@@ -94,15 +94,6 @@ a {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-.links:nth-child(3) {
-  background: #f34d4d;
-  color: #fff;
-  &:hover {
-    border: 1px solid #f34d4d;
-    background: #fff;
-    color: #f34d4d;
-  }
-}
 @keyframes shakeMe {
   2%,
   18% {
