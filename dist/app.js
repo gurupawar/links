@@ -1,5 +1,5 @@
 let linkWrapper = document.querySelector(".link_wrapper");
-let URL = "./links.json";
+let URL = "./dist/links.json";
 function myLinks() {
   fetch(URL)
     .then((res) => {
@@ -19,7 +19,6 @@ function myLinks() {
         links.addEventListener("click", function () {
           location.href = element.url;
         });
-
         linkWrapper.appendChild(links);
         links.append(a);
       });

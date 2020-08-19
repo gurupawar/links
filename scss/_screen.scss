@@ -1,0 +1,29 @@
+// ------------------------------------------- courses cards ------------------------
+@media (min-width: 660px) {
+  .course__card {
+    flex-direction: row;
+    img {
+      width: 100%;
+      min-height: 130px;
+      max-width: 280px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+  }
+}
+
+@media (max-width: 659px) {
+  .course__card {
+    flex-direction: column;
+    img {
+      width: 100%;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    .course__details {
+      .heading__details {
+        text-align: center;
+      }
+    }
+  }
+}
